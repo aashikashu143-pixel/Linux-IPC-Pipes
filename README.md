@@ -93,6 +93,7 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 
+```
 
 #include <unistd.h>
 #include <stdlib.h>
@@ -105,6 +106,7 @@ if (res == 0) printf("FIFO created\n");
 exit(EXIT_SUCCESS);
 }
 
+```
 
 ## OUTPUT
 
